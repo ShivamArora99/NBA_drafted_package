@@ -5,8 +5,9 @@ import pandas as pd
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
 from sklearn.metrics import roc_auc_score
 import joblib
-from src.features.build_features import pre_processing, apply_pca
-from src.visualization.visualize import auc_roc_curve
+from nba_drafted.build_features import pre_processing, apply_pca
+# from build_features import pre_processing, apply_pca
+from nba_drafted.visualize import auc_roc_curve
 
 def train_model(input_df_train, model, model_name, target_col, param_grid=None):
     """

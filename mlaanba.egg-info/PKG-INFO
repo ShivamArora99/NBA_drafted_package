@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: nba_drafted
-Version: 0.1.1
+Name: mlaanba
+Version: 0.1.0
 Summary: A package for NBA dataset preparation, feature engineering, training model and predicting.
 Home-page: https://github.com/ShivamArora99/NBA_drafted_package
 Author: Shivam Arora

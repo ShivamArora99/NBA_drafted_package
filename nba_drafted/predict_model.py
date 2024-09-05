@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 from category_encoders import TargetEncoder
 import pandas as pd
-import src.data.make_dataset as clean_data  # Assuming clean_data is used for data cleaning
-from src.features.build_features import pre_processing, apply_pca  # Assuming these functions handle scaling and feature selection
+import nba_drafted.make_dataset as clean_data  # Assuming clean_data is used for data cleaning
+from nba_drafted.build_features import pre_processing, apply_pca  # Assuming these functions handle scaling and feature selection
 
 def load_models(model_filepath, pca_filepath):
     """

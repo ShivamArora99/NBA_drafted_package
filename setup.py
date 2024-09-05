@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='nba_drafted',  
+    name='mlaanba',  
     version='0.1.0',
     description='A package for NBA dataset preparation, feature engineering, training model and predicting.',
     long_description=open('README.md').read(),
